@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="container">
+             <div>
+                <img src="data:image/png;base64,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" alt="error while loading">
+             </div>
+             <div class="memberlogin">
+                <h2>
+                    Member Login
+                </h2>
+                <div class="email"><input type="text" placeholder="Email"></div>
+                <div class="passwrd">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="btn">
+                    <button> LOGIN</button>
+                </div>
+                <div class="username">
+                    <p class="text">
+                        Forget
+                        <span class="password"><a href="#"> Username / Password ?</a></span>
+                    </p>
+                </div>
+                <div class="accnt"> 
+                    <p>
+                        Create Your Account ->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 70vh;
+    width: 60%;
+    border: none;
+    border-radius: 25px;
+    padding: 100px;
+    outline: none;
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+}
+.memberlogin h2{
+    margin-bottom: 35px;
+    text-align: center;
+    
+}
+.email input{
+    /* border: 1px solid black; */
+    height: 35px;
+    width: 200px;
+    margin-bottom:25px;
+    border-radius: 20px;
+    background-color:  rgb(217, 210, 210);
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.passwrd input{
+    height: 35px;
+    width: 200px;
+    margin-bottom:25px;
+    border-radius: 20px;
+    background-color: rgb(217, 210, 210);
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.btn button{
+    height: 35px;
+    width: 200px;
+    margin-bottom:25px;
+    border-radius: 20px;
+    background-color: green;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: white;
+}
+.password a{
+    text-decoration: none;
+    color: rgb(62, 163, 62);
+}
+.accnt p{
+    color: rgb(62, 163, 62);
+    margin-top: 20px;
+    text-align: center;
+}
+img{
+    margin-top: 30px;
+    border-radius: 50px;
+    height: 180px;
+   
+}
